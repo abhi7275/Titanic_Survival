@@ -1,11 +1,8 @@
 import streamlit as st
 import pandas as pd
-import sklearn
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import confusion_matrix
-import matplotlib.pyplot as plt
 
 
 def manipulate_df(df):
